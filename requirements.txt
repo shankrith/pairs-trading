@@ -1,0 +1,16 @@
+pandas
+matplotlib
+statsmodels
+seaborn
+pandas_datareader
+jupyter
+requests_cache
+tqdm
+scikit-learn
+arch
+tables
+kalman
+scipy
+pykalman
+pyfolio-reloaded
+backtrader
