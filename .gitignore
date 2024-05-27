@@ -1,0 +1,4 @@
+#Unnecessary folders
+venv/
+docs/
+data/
