@@ -2,3 +2,6 @@
 venv/
 docs/
 data/
+
+#local notebook
+local.ipynb

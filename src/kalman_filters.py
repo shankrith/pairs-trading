@@ -51,7 +51,7 @@ def get_spread(candidates, prices):
         period_candidates = candidates.loc[candidates['test_end'] == test_end, ['y', 'x']]
         trading_start = test_end + pd.DateOffset(days = 1)
         t = trading_start - pd.DateOffset(years = 2)
-        T = trading_start + pd.DateOffset(months = 6) - pd.DateOffset(days = 1)
+        T = trading_start + pd.DateOffset(years = 5) - pd.DateOffset(days = 1)
         max_window = len(prices.loc[t:T,:].index)
         for i, (y, x) in enumerate(zip(period_candidates['y'], period_candidates['x']), 1):
             if i % 1000 == 0:
